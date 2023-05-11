@@ -1,4 +1,7 @@
-﻿var carta1 = {
+﻿
+//#region cards
+
+var carta1 = {
     nome: "Homem de Ferro",
     imagem: "https://static.wikia.nocookie.net/disney/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20200516075827&path-prefix=pt-br",
 
@@ -6,7 +9,8 @@
     tecnologia: 10,
     combate: 8,
     agilidade: 1,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -19,7 +23,8 @@ var carta2 = {
     tecnologia: 5,
     combate: 10,
     agilidade: 0,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -32,7 +37,8 @@ var carta3 = {
     tecnologia: 0,
     combate: 8,
     agilidade: 0,
-    magia: 8
+    magia: 8,
+    trunfo: 0
   }
 
 };
@@ -45,7 +51,8 @@ var carta4 = {
     tecnologia: 5,
     combate: 10,
     agilidade: 8,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -58,7 +65,8 @@ var carta5 = {
     tecnologia: 7,
     combate: 10,
     agilidade: 10,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -71,7 +79,8 @@ var carta6 = {
     tecnologia: 9,
     combate: 8,
     agilidade: 7,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -84,7 +93,8 @@ var carta7 = {
     tecnologia: 9,
     combate: 5,
     agilidade: 3,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -97,7 +107,8 @@ var carta8 = {
     tecnologia: 7,
     combate: 9,
     agilidade: 5,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -110,7 +121,8 @@ var carta9 = {
     tecnologia: 10,
     combate: 9,
     agilidade: 5,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -123,7 +135,8 @@ var carta10 = {
     tecnologia: 1,
     combate: 8,
     agilidade: 0,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -136,7 +149,8 @@ var carta10 = {
     tecnologia: 0,
     combate: 8,
     agilidade: 2,
-    magia: 10
+    magia: 10,
+    trunfo: 0
   }
 
 };
@@ -149,7 +163,8 @@ var carta11 = {
     tecnologia: 10,
     combate: 8,
     agilidade: 3,
-    magia: 5
+    magia: 5,
+    trunfo: 0
   }
 
 };
@@ -162,7 +177,8 @@ var carta12 = {
     tecnologia: 10,
     combate: 7,
     agilidade: 4,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -175,7 +191,8 @@ var carta13 = {
     tecnologia: 10,
     combate: 8,
     agilidade: 5,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -188,7 +205,8 @@ var carta14 = {
     tecnologia: 0,
     combate: 8,
     agilidade: 4,
-    magia: 10
+    magia: 10,
+    trunfo: 0
   }
 
 };
@@ -201,7 +219,8 @@ var carta14 = {
     tecnologia: 5,
     combate: 9,
     agilidade: 9,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -214,7 +233,8 @@ var carta15 = {
     tecnologia: 9,
     combate: 10,
     agilidade: 9,
-    magia: 4
+    magia: 4,
+    trunfo: 0
   }
 
 };
@@ -227,7 +247,8 @@ var carta16 = {
     tecnologia: 0,
     combate: 9,
     agilidade: 10,
-    magia: 3
+    magia: 3,
+    trunfo: 0
   }
 
 };
@@ -241,7 +262,8 @@ var carta17 = {
     tecnologia: 6,
     combate: 9,
     agilidade: 8,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -254,7 +276,8 @@ var carta18 = {
     tecnologia: 4,
     combate: 8,
     agilidade: 4,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -267,7 +290,8 @@ var carta19 = {
     tecnologia: 0,
     combate: 4,
     agilidade: 2,
-    magia: 8
+    magia: 8,
+    trunfo: 0
   }
 
 };
@@ -280,7 +304,8 @@ var carta19 = {
     tecnologia: 0,
     combate: 5,
     agilidade: 3,
-    magia: 9
+    magia: 9,
+    trunfo: 0
   }
 
 };
@@ -293,7 +318,8 @@ var carta20 = {
     tecnologia: 6,
     combate: 8,
     agilidade: 7,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -306,7 +332,8 @@ var carta21 = {
     tecnologia: 5,
     combate: 5,
     agilidade: 6,
-    magia: 0
+    magia: 0,
+    trunfo: 0
   }
 
 };
@@ -319,7 +346,8 @@ var carta22 = {
     tecnologia: 0,
     combate: 9,
     agilidade: 6,
-    magia: 8
+    magia: 8,
+    trunfo: 0
   }
 
 };
@@ -332,7 +360,8 @@ var carta23 = {
     tecnologia: 9,
     combate: 1,
     agilidade: 1,
-    magia: 5
+    magia: 5,
+    trunfo: 0
   }
 
 };
@@ -345,7 +374,8 @@ var carta23 = {
     tecnologia: 9,
     combate: 8,
     agilidade: 6,
-    magia: 6
+    magia: 6,
+    trunfo: 0
   }
 
 };
@@ -358,7 +388,8 @@ var carta24 = {
     tecnologia: 0,
     combate: 2,
     agilidade: 2,
-    magia: 10
+    magia: 10,
+    trunfo: 0
   }
 
 };
@@ -371,7 +402,8 @@ var carta25 = {
     tecnologia: 0,
     combate: 9,
     agilidade: 5,
-    magia: 4
+    magia: 4,
+    trunfo: 0
   }
 
 };
@@ -384,11 +416,13 @@ var carta26 = {
     tecnologia: 10,
     combate: 10,
     agilidade: 10,
-    magia: 10
+    magia: 10,
+    trunfo: 1
   }
 
 };
 
+//#endregion
 
 /*functions*/
 
@@ -404,7 +438,7 @@ var cartas_jogador;
 var cartas_maquina;
 
 
-/*function embaralharCartas(arr) {
+function embaralharCartas(arr) {
     // Loop em todos os elementos
     for (let i = arr.length - 1; i > 0; i--) {
         // Escolhendo elemento aleatório
@@ -417,17 +451,82 @@ return arr;
 }
 
 function distribuirCartas(){
-    embaralharCartas(cartas_jogo);
+    embaralharCartas(cartas_jogo); //chamando e executando function de enbaralar
 
 
+    //dividindo as cartas entre os dois jogadores
     cartas_jogador = cartas_jogo.slice(0,13);
     cartas_maquina = cartas_jogo.slice(13,26);
 
-    console.log(cartas_jogador);
-    console.log(cartas_maquina);
-
     
+    console.log(cartas_jogador.length);
+    console.log(cartas_maquina.length);
+
 }
 
-distribuirCartas();*/
+function montarCardPlayer(indice){
+  var cardImage = document.querySelector('.card-image');
 
+  // Verifica se a <div> já contém uma imagem
+  if (!cardImage.querySelector('img')) {
+    var imagem = document.createElement('img');
+    imagem.src = carta21.imagem;
+    cardImage.appendChild(imagem);
+  }
+
+}
+function iniciarJogo(){
+
+  distribuirCartas();
+
+  for(let i = 0; i < cartas_jogador.length; i++) {
+    let atual_jogador = cartas_jogador[i];
+    let venceu = false;
+
+    montarCardPlayer(i);
+
+    for(let j = 0; j < cartas_maquina.length; j++) {
+      let atual_maquina = cartas_maquina[j];
+      
+      if(atual_jogador.atributos.trunfo == 1){
+        cartas_jogador.push(atual_maquina);
+        cartas_maquina.splice(j, 1);
+        venceu = true;
+        console.log("Jogador tem trunfo!")
+        break;
+      } else if(atual_maquina.atributos.trunfo == 1){
+        cartas_jogador.splice(i, 1);
+        cartas_maquina.push(atual_jogador);
+        venceu = false;
+        console.log("Máquina tem o trunfo!");
+        break;
+      } else if(atual_jogador.atributos.agilidade > atual_maquina.atributos.agilidade){
+        cartas_jogador.push(atual_maquina);
+        cartas_maquina.splice(j, 1);
+        venceu = true;
+        break;
+      } else if(atual_jogador.atributos.agilidade < atual_maquina.atributos.agilidade){
+        cartas_jogador.splice(i, 1);
+        cartas_maquina.push(atual_jogador);
+        venceu = false;
+        break;
+      } else {
+        console.log("Empate!");
+      }
+    }
+
+    if (!venceu) {
+      i--;
+    }
+
+    if (cartas_jogador.length === 0 || cartas_maquina.length === 0) {
+      break;
+    }
+  }
+
+  if (cartas_jogador.length === 0) {
+    console.log("A máquina venceu!");
+  } else {
+    console.log("Você venceu!");
+  }
+}

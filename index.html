@@ -78,7 +78,7 @@
       
               <div class="coluna">
                 <div class="btnMenu">
-                  <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button><br>
+                  <button onclick="iniciarJogo()" id="btnSortear">Sortear carta</button><br>
                   <button onclick="zerarJogo()" id="btnZerar">Zerar Jogo</button><br>
                   <button onclick="showPopup('popup-regras')" id="btnRegras">Como jogar</button>
                 </div>
@@ -92,15 +92,53 @@
               <h2>&nbspEscolha o seu atributo&nbsp</h2>
               <div class="wrapper">
                 <div>
-                  <div id="carta-jogador">
-                    <!-- <imagem do verso da carta aqui> -->
-                    <h3></h3>
+                  <div class="card"> <!--card jogador-->
+                    <div class="card-image"></div>
+                    <div class="card-text">
+                      <span class="date">4 days ago</span>
+                      <h2>Post One</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                    </div>
+                    <div class="card-stats">
+                      <div class="stat">
+                        <div class="value">4<sup>m</sup></div>
+                        <div class="type">read</div>
+                      </div>
+                      <div class="stat border">
+                        <div class="value">5123</div>
+                        <div class="type">views</div>
+                      </div>
+                      <div class="stat">
+                        <div class="value">32</div>
+                        <div class="type">comments</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div>
-                  <div id="carta-maquina" class="carta">
-                    <!--<imagem do verso da carta aqui> -->
+                  <div class="card"> <!--card maquina-->
+                    <div class="card-image"></div>
+                    <div class="card-text">
+                      <span class="date">4 days ago</span>
+                      <h2>Post One</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                    </div>
+                    <div class="card-stats">
+                      <div class="stat">
+                        <div class="value">4<sup>m</sup></div>
+                        <div class="type">read</div>
+                      </div>
+                      <div class="stat border">
+                        <div class="value">5123</div>
+                        <div class="type">views</div>
+                      </div>
+                      <div class="stat">
+                        <div class="value">32</div>
+                        <div class="type">comments</div>
+                      </div>
+                    </div>
                   </div>
+                </div>
                 </div>
               </div>
               <div id="botao-jogar"></div>
@@ -108,7 +146,8 @@
             </form>
           </div>
       
-        </div>
+        </div>    
+        <script src="assets/script_jogo.js"></script>
       </body>
-    <script src="assets/script_jogo.js"></script>
+
 </html>
