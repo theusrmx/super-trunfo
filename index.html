@@ -78,6 +78,8 @@
       
               <div class="coluna">
                 <div class="btnMenu">
+              
+                  <button onclick="distribuirCartas()" id="btnSortear">Embaralhar</button><br>
                   <button onclick="iniciarJogo()" id="btnSortear">Sortear carta</button><br>
                   <button onclick="zerarJogo()" id="btnZerar">Zerar Jogo</button><br>
                   <button onclick="showPopup('popup-regras')" id="btnRegras">Como jogar</button>
@@ -92,57 +94,63 @@
               <h2>&nbspEscolha o seu atributo&nbsp</h2>
               <div class="wrapper">
                 <div>
+
                   <div class="card"> <!--card jogador-->
-                    <div class="card-image"></div>
+                    <div class="card-image"><img src="" id="imagem-jogador"></div>
                     <div class="card-text">
-                      <span class="date">4 days ago</span>
-                      <h2>Post One</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                      <h2 class="nome_jogador"></h2>
                     </div>
                     <div class="card-stats">
                       <div class="stat">
-                        <div class="value">4<sup>m</sup></div>
-                        <div class="type">read</div>
+                        <div class="value"><h3 id="tech"></h3></div>
+                        <div class="type">Tecnologia</div>
                       </div>
                       <div class="stat border">
-                        <div class="value">5123</div>
-                        <div class="type">views</div>
+                        <div class="value"><h3 id="combate"></h3></div>
+                        <div class="type">Combate</div>
                       </div>
                       <div class="stat">
-                        <div class="value">32</div>
-                        <div class="type">comments</div>
+                        <div class="value"><h3 id="agilidade"></h3></div>
+                        <div class="type">Agilidade</div>
+                      </div>
+                      <div class="stat border">
+                        <div class="value"><h3 id="magia"></h3></div>
+                        <div class="type">Magia</div>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div>
+
                   <div class="card"> <!--card maquina-->
-                    <div class="card-image"></div>
+                    <div class="card-image-maquina"><img src="" id="imagem-maquina"></div>
                     <div class="card-text">
-                      <span class="date">4 days ago</span>
-                      <h2>Post One</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                      <h2 class="nome_maquina"></h2>
                     </div>
                     <div class="card-stats">
                       <div class="stat">
-                        <div class="value">4<sup>m</sup></div>
-                        <div class="type">read</div>
+                        <div class="value"><h3 id="tech_maquina"></h3></div>
+                        <div class="type">Tecnologia</div>
                       </div>
                       <div class="stat border">
-                        <div class="value">5123</div>
-                        <div class="type">views</div>
+                        <div class="value"><h3 id="combate_maquina"></h3></div>
+                        <div class="type">Combate</div>
                       </div>
                       <div class="stat">
-                        <div class="value">32</div>
-                        <div class="type">comments</div>
+                        <div class="value"><h3 id="agilidade_maquina"></h3></div>
+                        <div class="type">Agilidade</div>
+                      </div>
+                      <div class="stat border">
+                        <div class="value"><h3 id="magia_maquina"></h3></div>
+                        <div class="type">Magia</div>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 </div>
               </div>
-              <div id="botao-jogar"></div>
-              <div id="resultado"></div>
             </form>
           </div>
       
